@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.circle{
+    height: 5px;
+    width: 5px;
+    border-radius: 5px;
+    background-color: #000;
+}
+.main-div {
+    background-color:#fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    width: 70%;
+    height: 100%;
+    margin-bottom: 50px;
+    /* background-color:#f7f7f7; */
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* background-color: yellow; */
+    height: 120px;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+.h-name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.h-title-1{
+    display: flex;
+    align-items: center;
+    gap:5px
+}
+.title-1-txt{
+    font-size: 14px;
+}
+.h-title-2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(234, 83, 83);
+    font-weight: 600;
+}
+.title-span{
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+.title-2-txt{
+    text-decoration: underline;
+    font-size: 14px;
+}
+.education{
+    height: max-content;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.e-div{
+   height: max-content;
+   padding: 10px 0 10px 0;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #000 2px solid;
+    /* margin-top: 10px; */
+}
+.e-title{
+    font-size: 16px;
+    font-weight: 600;
+}
+.e-info{
+    height: max-content;
+    width: 80%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.e-infos{
+    height: max-content;
+    width: 80%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.e-uni{
+    height: max-content;
+    width: 100%;
+    /* background-color:red; */
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 10px;
+}
+.e-uni-txt1-div{
+    /* background-color: red; */
+    width:90%;
+    padding-left: 20px;
+}
+.e-uni-txt{
+    font-weight: 600;
+    margin-left: 5px;
+}
+.e-uni-course{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.e-uni-txt2-div{
+    width: 80px;
+}
+.e-uni-year{
+    font-weight: 600;
+    font-size: 14px;
+}
+.i{
+    display: flex;
+    align-items: center;
+    /* background-color: pink; */
+}
+.e-tech{
+    /* height: 40px; */
+    width: 95%;
+    /* background-color:red; */
+    display: flex;
+   align-items: center;
+   gap: 10px;
+}
+.j{
+    /* background-color: pink; */
+    width: max-content;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+a{
+    color: red;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.e-web{
+    height: max-content;
+    width: 80%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+    /* flex-direction: column; */
+}
+.e-uni-dev {
+    height: max-content;
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
